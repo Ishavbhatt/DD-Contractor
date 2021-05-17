@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .title {
+    position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #05295E;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+
+  }
+   .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #05295E;
+    transform: translateX(-50%);
+  }
+   .title::after {
+    position: absolute;
+    bottom: -12px;
+    padding: 0 2px;
+    left: 50%;
+    font-size: 20px;
+    color: #FA613F;
+    background: #ffffff;
+    transform: translateX(-50%);
+  }
+  .services .title::after {
+    content: "what we provide";
+  }
+  .about .title::before {
+    width: 160px;
+  }
+  .about .title::after {
+    content: "who we are";
+  }
