@@ -28,13 +28,6 @@ function Projects() {
               <div className="text">{item.heading}</div>
             </div>
           </div>
-
-          // <div className="rounded relative overflow-hidden md:w-2/5 lg:w-1/5 my-5" key={index}>
-          //   <div className="">
-          //     <img className="h-56 w-full" src={item.picture} alt="" />
-          //     <h1 className="text-custom-heading text-2xl pt-2 font-ghre">{item.heading}</h1>
-          //   </div>
-          // </div>
         ))}
       </div>
     </section>
